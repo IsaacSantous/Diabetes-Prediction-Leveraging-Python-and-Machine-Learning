@@ -29,10 +29,10 @@ After extensive experimentation and hyperparameter turning, the final machine le
 Furthermore, these models are compared to determine the most effective model in this regard by evaluating their accuracy of prediction, alongside other performance metrics such as precision, recall and ROC score.
 ## Evaluation Metrics
 To assess the performance of the machine learning model, the following evaluation metrics were used:
-•	Precision: The proportion of correctly predicted positive (diabetes) patients among all patients that are classified diabetic.
-•	Recall: The proportion of all actual positives that were classified correctly as positives.
-•	Accuracy: The overall proportion of correctly predicted patients (both positive and negative).
-•	ROC: The trade-off between that are true positive prediction and false positive prediction. 
+-	Precision: The proportion of correctly predicted positive (diabetes) patients among all patients that are classified diabetic.
+-	Recall: The proportion of all actual positives that were classified correctly as positives.
+-	Accuracy: The overall proportion of correctly predicted patients (both positive and negative).
+-	ROC: The trade-off between that are true positive prediction and false positive prediction. 
 ## Key Insights
 -	After cross validation, the model with the highest accuracy will be deployed. Accuracy is the most relevant matrix for evaluation in this project due to the significant target imbalance.  
 -	The confusion matrix for two models (Random Forest and Logistic Regression) displays the error value for each model in terms of False Positives (patients predicted to have diabetes while in actuality they are not) and False Negatives (patients predicted not having diabetes but in actuality they have it)
